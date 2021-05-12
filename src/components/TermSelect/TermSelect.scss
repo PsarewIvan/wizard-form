@@ -1,0 +1,13 @@
+.term-select {
+  width: min-content;
+  min-width: 258px;
+
+  &__title {
+    margin: 0 0 7px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: #6773a0;
+  }
+}

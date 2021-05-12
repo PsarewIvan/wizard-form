@@ -1,0 +1,16 @@
+.plan-select {
+  &__title {
+    margin: 0 0 8px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: #6773a0;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 172px);
+    gap: 12px;
+  }
+}

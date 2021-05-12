@@ -1,0 +1,33 @@
+.order-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  row-gap: 2px;
+
+  &__name {
+    max-width: 140px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: #34324f;
+  }
+
+  &__added {
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #34324f;
+    overflow: hidden;
+
+    &--discount {
+      color: #205eff;
+    }
+  }
+
+  &__description {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.25;
+    color: #9b99ae;
+  }
+}

@@ -1,0 +1,20 @@
+.master-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+
+  &__main {
+    width: 100%;
+  }
+
+  &__button {
+    display: flex;
+    gap: 14px;
+    margin-top: auto;
+  }
+
+  &__pagination {
+    margin-top: auto;
+  }
+}

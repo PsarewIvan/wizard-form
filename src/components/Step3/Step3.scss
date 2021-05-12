@@ -1,0 +1,135 @@
+.step3 {
+  &__title {
+    margin: 0 0 13px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: #6773a0;
+  }
+
+  &__cash {
+    width: 258px;
+    margin-bottom: 17px;
+  }
+
+  &__input-title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: #7b7b83;
+
+    &--cash::after {
+      content: '';
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      width: 9px;
+      height: 16px;
+      display: block;
+      background-image: url(./img/money.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &--payment {
+      width: 100%;
+      margin: 0 0 12px;
+    }
+  }
+
+  &__input {
+    min-height: 42px;
+    margin-top: 9px;
+    padding: 0 30px 0 12px;
+    background: #ffffff;
+    border: 1px solid #f1f2f5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.25;
+    color: #969bae;
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+  &__payment {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__radio-wrapper {
+    display: grid;
+    grid-template-columns: 172px 172px;
+    column-gap: 40px;
+    row-gap: 12px;
+  }
+
+  &__label {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #474e69;
+    cursor: pointer;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 26px;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &:nth-of-type(1)::after {
+      top: -1px;
+      width: 20px;
+      height: 14px;
+      background-image: url(./img/card.svg);
+    }
+
+    &:nth-of-type(2)::after {
+      top: -2px;
+      width: 18px;
+      height: 18px;
+      background-image: url(./img/webmoney.svg);
+    }
+
+    &:nth-of-type(3)::after {
+      top: -5px;
+      width: 23px;
+      height: 20px;
+      background-image: url(./img/yandex.svg);
+    }
+
+    &:nth-of-type(4)::after {
+      width: 18px;
+      height: 18px;
+      background-image: url(./img/bitcoin.svg);
+    }
+
+    &:nth-of-type(5)::after {
+      top: -2px;
+      width: 20px;
+      height: 20px;
+      background-image: url(./img/qiwi.svg);
+    }
+  }
+
+  &__radio {
+    margin-right: 38px;
+  }
+}
