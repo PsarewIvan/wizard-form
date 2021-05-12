@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Header from './components/Header/Header';
 import MasterForm from './components/MasterForm/MasterForm';
 import Order from './components/Order/Order';
-import Step4 from './components/Step4/Step4';
+import FinalStep from './components/FinalStep/FinalStep';
 import './App.scss';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       ) : null}
       {currentStep === 4 ? (
         <div className="app__finish">
-          <Step4 />{' '}
+          <FinalStep />{' '}
         </div>
       ) : null}
     </div>
