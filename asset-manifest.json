@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.18566366.chunk.css",
-    "main.js": "/static/js/main.c3a098f0.chunk.js",
-    "main.js.map": "/static/js/main.c3a098f0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9cd74ed7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9cd74ed7.js.map",
-    "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
-    "static/js/2.0eb60a8d.chunk.js": "/static/js/2.0eb60a8d.chunk.js",
-    "static/js/2.0eb60a8d.chunk.js.map": "/static/js/2.0eb60a8d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.18566366.chunk.css.map": "/static/css/main.18566366.chunk.css.map",
-    "static/js/2.0eb60a8d.chunk.js.LICENSE.txt": "/static/js/2.0eb60a8d.chunk.js.LICENSE.txt",
-    "static/media/Step3.scss": "/static/media/yandex.87f3a301.svg",
-    "static/media/Header.scss": "/static/media/close-icon.23ed35f2.svg"
+    "main.css": "/wizard-form/static/css/main.13d2d0ea.chunk.css",
+    "main.js": "/wizard-form/static/js/main.c3a098f0.chunk.js",
+    "main.js.map": "/wizard-form/static/js/main.c3a098f0.chunk.js.map",
+    "runtime-main.js": "/wizard-form/static/js/runtime-main.153d0ac5.js",
+    "runtime-main.js.map": "/wizard-form/static/js/runtime-main.153d0ac5.js.map",
+    "static/css/2.679831fc.chunk.css": "/wizard-form/static/css/2.679831fc.chunk.css",
+    "static/js/2.0eb60a8d.chunk.js": "/wizard-form/static/js/2.0eb60a8d.chunk.js",
+    "static/js/2.0eb60a8d.chunk.js.map": "/wizard-form/static/js/2.0eb60a8d.chunk.js.map",
+    "index.html": "/wizard-form/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/wizard-form/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.13d2d0ea.chunk.css.map": "/wizard-form/static/css/main.13d2d0ea.chunk.css.map",
+    "static/js/2.0eb60a8d.chunk.js.LICENSE.txt": "/wizard-form/static/js/2.0eb60a8d.chunk.js.LICENSE.txt",
+    "static/media/Step3.scss": "/wizard-form/static/media/yandex.87f3a301.svg",
+    "static/media/Header.scss": "/wizard-form/static/media/close-icon.23ed35f2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cd74ed7.js",
+    "static/js/runtime-main.153d0ac5.js",
     "static/css/2.679831fc.chunk.css",
     "static/js/2.0eb60a8d.chunk.js",
-    "static/css/main.18566366.chunk.css",
+    "static/css/main.13d2d0ea.chunk.css",
     "static/js/main.c3a098f0.chunk.js"
   ]
 }
